@@ -1,0 +1,44 @@
+{
+  "name": "academic-notebook-infrastructure",
+  "version": "1.0.0",
+  "description": "AWS CDK Infrastructure for Academic Notebook Cloud Platform",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --all",
+    "destroy": "cdk destroy --all",
+    "diff": "cdk diff",
+    "synth": "cdk synth",
+    "bootstrap": "cdk bootstrap"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.100.0",
+    "constructs": "^10.3.0",
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.100.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.100.0-alpha.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.0",
+    "aws-cdk": "^2.100.0"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "infrastructure",
+    "academic",
+    "notebook",
+    "cloud",
+    "s3",
+    "dynamodb",
+    "lambda",
+    "cognito",
+    "opensearch"
+  ]
+}

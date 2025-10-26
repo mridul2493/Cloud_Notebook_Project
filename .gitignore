@@ -1,0 +1,30 @@
+# === Node ===
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+infrastructure/node_modules/
+
+# === Build & Logs ===
+dist/
+build/
+.next/
+coverage/
+logs/
+*.log
+
+# === Environment Files ===
+.env
+*.env
+env/
+env.example
+
+# === OS / Editor Files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# === Docker / Kubernetes ===
+docker-compose.yml
+.docker/
+kubernetes/

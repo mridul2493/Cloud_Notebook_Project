@@ -104,7 +104,3 @@ This project directly addresses limitations from recent academic research:
 ## 🤝 Contributing
 
 See [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for development guidelines.
-
-## 📄 License
-
-MIT License - see [LICENSE](./LICENSE) for details.

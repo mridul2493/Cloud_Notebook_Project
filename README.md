@@ -100,7 +100,3 @@ This project directly addresses limitations from recent academic research:
 - Auto-scaling based on usage
 - Global CDN for optimal performance
 - Microservices architecture for independent scaling
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for development guidelines.
